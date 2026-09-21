@@ -1,0 +1,16 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+   "description": "Backend API for the B2C e-commerce platform",
+   "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "Muhammed Faisal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
