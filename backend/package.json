@@ -4,13 +4,14 @@
   "description": "Backend API for the B2C e-commerce platform",
   "type": "module",
   "scripts": {
-  "dev": "node --env-file=.env --watch src/server.js",
-  "start": "node --env-file=.env src/server.js"
-},
+    "dev": "node --env-file=.env --watch src/server.js",
+    "start": "node --env-file=.env src/server.js"
+  },
   "keywords": [],
   "author": "Muhammed Faisal",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.2.1",
     "mongoose": "^9.10.1"
   }
